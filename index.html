@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -16,6 +16,10 @@
     </head>
 
     <body>
+        <section>
+            <h2 class="greetings">Calculator</h2>
+            <p class="authors">Built by Ore & Meleyotan</p>
+        </section>
         <main>
             <!-- Settings -->
             <section class="settings-container">
@@ -44,38 +48,39 @@
 
             <!--Display  -->
             <section class="display-container">
-                <span id="calc_result">Display</span>
+                <span id="calc_result">0</span>
             </section>
 
             <!-- Buttons -->
             <section class="button-container">
-                <button class="" id="button-cancel">C</button>
-                <button class="" id="button-bracket">()</button>
-                <button class="" id="button-percentage">%</button>
-                <button class="" id="button-division">/</button>
+                <button class="calc_button" id="button-cancel">C</button>
+                <button class="calc_button" id="button-bracket">()</button>
+                <button class="calc_button" id="button-percentage">%</button>
+                <button class="calc_button" id="button-division">/</button>
 
 
-                <button class="" id="button-seven">7</button>
-                <button class="" id="button-eight">8</button>
-                <button class="" id="button-nine">9</button>
-                <button class="" id="button-multiplication">*</button>
+                <button class="calc_button" id="button-seven">7</button>
+                <button class="calc_button" id="button-eight">8</button>
+                <button class="calc_button" id="button-nine">9</button>
+                <button class="calc_button" id="button-multiplication">*</button>
 
-                <button class="" id="button-four">4</button>
-                <button class="" id="button-five">5</button>
-                <button class="" id="button-six">6</button>
-                <button class="" id="button-subtraction">-</button>
+                <button class="calc_button" id="button-four">4</button>
+                <button class="calc_button" id="button-five">5</button>
+                <button class="calc_button" id="button-six">6</button>
+                <button class="calc_button" id="button-subtraction">-</button>
 
-                <button class="" id="button-one">1</button>
-                <button class="" id="button-two">2</button>
-                <button class="" id="button-three">3</button>
-                <button class="" id="button-addition">+</button>
+                <button class="calc_button" id="button-one">1</button>
+                <button class="calc_button" id="button-two">2</button>
+                <button class="calc_button" id="button-three">3</button>
+                <button class="calc_button" id="button-addition">+</button>
 
-                <button class="" id="button-clear">-</button>
-                <button class="" id="button-zero">0</button>
-                <button class="" id="button-decimal">.</button>
-                <button class="" id="button-equals">=</button>
+                <button class="calc_button" id="button-clear">-</button>
+                <button class="calc_button" id="button-zero">0</button>
+                <button class="calc_button" id="button-decimal">.</button>
+                <button type="submit" id="button-equals">=</button>
             </section>
         </main>
+        <script src="./js/script.js"></script>
     </body>
 
 </html>
