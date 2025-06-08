@@ -91,8 +91,8 @@ if (
 
     // Handle the erase button
 
-    if (button.innerHTML === "⌫") {
-      // Assuming the erase button has the text "⌫"
+    if (button.innerHTML === "&lt;") {
+      // Assuming the erase button has the text "&lt;"
       if (display.innerHTML.length > 1) {
         display.innerHTML = display.innerHTML.slice(0, -1); // Remove the last character
       } else {
