@@ -16,17 +16,22 @@
     </head>
 
     <body>
-        <section>
-            <h2 class="greetings">Calculator</h2>
-            <p class="authors">Built by Ore & Meleyotan</p>
+        <section class="info">
+            <h2 class="greetings">calculator</h2>
+            <div>
+            <p class="authors">designed and vibe-coded by <a href="https://meleyotan.github.io">ore</a> & <a href="https://meleyotan.github.io">meleyotan</a></p><br>
+            <span>build links: </span>
+            <a href="" class="github-link">github</a> <a href="" class="figma-link">figma</a>
+        </div>
         </section>
+        
         <main>
             <!-- Settings -->
             <section class="settings-container">
                 <div class="sub-settings-container soundwave-container">
                 </div>
 
-                <div class="sub-settings-container recording-container">
+                <div class="sub-settings-container recording-container" id="recording_container">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="recording">
                         <path
                             d="M16 23c3.865 0 7-3.135 7-7V8c0-3.865-3.135-7-7-7S9 4.135 9 8v8c0 3.865 3.135 7 7 7zm-3-9h-2v-1h2a1 1 0 1 0 0-2h-2v-1h2a1 1 0 1 0 0-2h-2c0-2.757 2.243-5 5-5s5 2.243 5 5h-2a1 1 0 1 0 0 2h2v1h-2a1 1 0 1 0 0 2h2v1h-2a1 1 0 1 0 0 2h2c0 2.757-2.243 5-5 5s-5-2.243-5-5h2a1 1 0 1 0 0-2z">
@@ -35,7 +40,7 @@
                             d="M26 16h-2c0 4.411-3.589 8-8 8s-8-3.589-8-8H6c0 5.177 3.954 9.445 9 9.949V29h-3v2h8v-2h-3v-3.051c5.046-.504 9-4.772 9-9.949z">
                         </path>
                     </svg>
-  
+
                 </div>
 
                 <div class="sub-settings-container setting-container">
@@ -74,10 +79,10 @@
                 <button class="calc_button" id="button-three">3</button>
                 <button class="calc_button" id="button-addition">+</button>
 
-                <button class="calc_button" id="button-clear">-</button>
+                <button class="calc_button" id="button-clear">&#x232B;</button>
                 <button class="calc_button" id="button-zero">0</button>
                 <button class="calc_button" id="button-decimal">.</button>
-                <button type="submit" id="button-equals">=</button>
+                <button class="calc_button" type="submit" id="button-equals">=</button>
             </section>
         </main>
         <script src="./js/script.js"></script>
